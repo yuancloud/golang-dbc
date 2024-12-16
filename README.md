@@ -9,6 +9,7 @@
 ```bash
 go build -o golang-dbc main.go
 
+# 指定需要连接的IP和Port，以及当前使用的DBC文件
 ./golang-dbc -ip=192.168.100.9 -port=5500 -dbc=dbc/xxx.dbc
 ```
 
